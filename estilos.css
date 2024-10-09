@@ -1,0 +1,112 @@
+/*body{ 
+    ; 
+} 
+
+p{ 
+    color:#ff0000;
+} 
+
+div{ 
+    background-color:hsl(60, ) ; 
+} 
+.caja1{ 
+    width: 150px; 
+    height: 150px; 
+    background-color: rgb(255, 87,51); 
+} 
+    
+.caja2{
+    width: 150px; 
+    height: 150px; 
+    background-color: #808080; 
+} 
+    
+.caja3{ 
+    width: 150px; 
+    height: 150px; 
+    background-color:hsl(60, 100%, 20%) ; 
+}
+
+ */ /*EL * ES UN SELECCTOR UNVERSAL*/ /**
+{ 
+    color: orange; 
+}
+
+*/ /*selecctores de tipo*/ /* 
+div{ 
+    color: green; 
+}*/ 
+
+/*selector de clas*/ 
+.caja1{ 
+    color: red; 
+} 
+
+/*selectores de id*/ 
+#foo{ 
+    color: orange; 
+} 
+
+/*selectores por atibuto*/ 
+a[title]{ 
+    color: green; 
+} 
+
+/*seudo clases - > se basan en el satado*/ 
+button:hover{ 
+    background-color: aqua;
+} 
+
+/*formulario*/ 
+input:disabled{ 
+    border: 2px solid orange; 
+}
+
+ /*
+.foo, .bar{
+    color : green;
+}
+*/
+
+/*
+.abuelo .nieto{
+    color : red;
+}
+
+.abuelo div{
+    color : green;
+}
+*/
+
+/*
+.abuelo > div{
+    color : orange;
+}
+*/
+
+/*
+.hijo{
+    color : orange;
+}
+*/
+
+/*
+.hijo1 ~ div{
+    color : violet;
+}
+*/
+
+/*
+.foo{
+    color : green;
+}
+
+#bar{
+    color : red;
+}
+*/
+
+#outer #inner a{
+    background-color : red;
+    color : black;  
+}
